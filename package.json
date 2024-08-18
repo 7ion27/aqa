@@ -1,0 +1,20 @@
+{
+  "name": "aqa",
+  "version": "1.0.0",
+  "description": "Чтобы развернуть сревер\r 1. Убедитесь, что у вас установлен Node.js\r 2. Инициализируйте проект: npm init -y\r 3. Установите необходимые зависимости: npm install express body-parser\r 4. Запустите сервер: node server.js\r 5. Откройте браузер и перейдите по адресу http://localhost:3000",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.46.1",
+    "@types/node": "^22.4.0"
+  }
+}
